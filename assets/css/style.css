@@ -103,8 +103,13 @@ h1, h2, h3, h4, h5, h6 {
 /**
 * Desktop Navigation 
 */
+.arbic-nav{
+  font-family: 'Noto Nastaliq Urdu', serif;
+}
+
 .navbar {
   padding: 0;
+  font-family: 'Noto Nastaliq Urdu', serif;
 }
 .navbar ul {
   margin: 0;
@@ -127,6 +132,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
   white-space: nowrap;
   transition: 0.3s;
+  font-family: 'Noto Nastaliq Urdu', serif;
 }
 .navbar a i, .navbar a:focus i {
   font-size: 12px;
@@ -155,7 +161,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .navbar .dropdown ul a {
   padding: 10px 20px;
-  font-size: 14px;
+  font-size: 25px;
   text-transform: none;
 }
 .navbar .dropdown ul a i {
@@ -243,11 +249,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 .navbar-mobile a, .navbar-mobile a:focus {
   padding: 10px 20px;
-  font-size: 15px;
+  font-size: 25px;
   color: #004289;
+  font-family: 'Noto Nastaliq Urdu', serif;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
   color: #007bff;
+  font-family: 'Noto Nastaliq Urdu', serif;
 }
 .navbar-mobile .dropdown ul {
   position: static;
@@ -546,11 +554,27 @@ section {
   font-size: 24px;
 }
 
+/* 
+Header title
+-------------------- */
+
+.header-title{
+  font-weight: bold;
+  font-size: 35px;
+  font-family: 'Noto Nastaliq Urdu', serif;
+  padding: 0;
+  white-space: nowrap;
+  color: #007bff;
+}
+
+
 /* Services Section
 --------------------------------*/
 #services {
   padding: 60px 0 40px 0;
   box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  font-family: 'Noto Naskh Arabic', serif;
+  
 }
 #services .box {
   padding: 30px;
@@ -561,45 +585,67 @@ section {
   background: #fff;
   box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
   transition: all 0.3s ease-in-out;
+  font-family: 'Noto Naskh Arabic', serif;
 }
 #services .box:hover {
   transform: translateY(-5px);
+  font-family: 'Noto Naskh Arabic', serif;
 }
 #services .icon {
   position: absolute;
   left: -15px;
   top: calc(50% - 32px);
+  font-family: 'Noto Naskh Arabic', serif;
 }
 #services .icon i {
-  font-size: 64px;
+  font-size: 50px;
   line-height: 0;
   transition: 0.5s;
+  font-family: 'Noto Naskh Arabic', serif;
 }
 #services .title {
   margin-left: 40px;
   font-weight: 700;
   margin-bottom: 15px;
-  font-size: 18px;
+  font-size: 30px;
+  font-family: 'Noto Naskh Arabic', serif;
 }
 #services .title a {
   color: #111;
+  font-family: 'Noto Naskh Arabic', serif;
+  size:35px;
 }
 #services .box:hover .title a {
   color: #007bff;
+  font-family: 'Noto Naskh Arabic', serif;
+
 }
 #services .description {
   font-size: 14px;
   margin-left: 40px;
   line-height: 24px;
   margin-bottom: 0;
+  font-family: 'Noto Nastaliq Urdu', serif;
+}
+
+.bismillah-title{
+  color:#004a99;
+  font-family: 'Noto Nastaliq Urdu', serif;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 38px;
+  padding-top: 52px;
 }
 
 #why-us {
   padding: 60px 0;
   background: #004a99;
 }
-#why-us .section-header h3, #why-us .section-header p {
+#why-us .section-header h2, #why-us .section-header p {
+  margin-top:30px;
   color: #fff;
+  font-family: 'Noto Nastaliq Urdu', serif;
 }
 #why-us .card {
   background: #00458f;
