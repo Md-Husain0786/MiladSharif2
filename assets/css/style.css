@@ -411,7 +411,7 @@ section {
 .section-header p {
   text-align: center;
   margin: auto;
-  font-size: 15px;
+  font-size: 17px;
   padding-bottom: 60px;
   color: #556877;
   width: 50%;
@@ -567,6 +567,9 @@ Header title
   color: #007bff;
 }
 
+.About{
+  font-size: 15px;
+}
 
 /* Services Section
 --------------------------------*/
