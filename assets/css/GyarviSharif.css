@@ -27,8 +27,8 @@ a{
     font-size: 34px;
     color: midnightblue;
     font-weight: bold;
-    /* padding: 2px; */
-    padding-bottom: 23px;
+    padding:10px;
+    padding-bottom: 15px;
 }
 
 .bismillah-section {
@@ -232,7 +232,7 @@ a{
     font-family: 'Noto Nastaliq Urdu', serif;
     white-space: nowrap;
     font-size: 40px;
-    color: midnightblue;
+    color: #ff0095;
     font-weight: bold;
     padding: 5px;
 }
