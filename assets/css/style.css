@@ -1,4 +1,18 @@
 
+/* -- Back Button -- */
+
+#BackBtn{
+  position: fixed;
+  bottom: 0%;
+  left: 0%;
+  border-radius: 50%;
+  font-size: 40px;  
+}
+
+.backbtnclass{
+  color: #007bff;
+}
+
 /* ------- PreLoader------------ */
 
 #loader{
