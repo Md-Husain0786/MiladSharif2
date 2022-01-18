@@ -14,6 +14,12 @@ function DBlockFunction() {
 
 }
 
+
+function myFunction() {
+  setTimeout("", "5000");
+  var PreLoader = document.getElementById('loader');
+  PreLoader.style.display = 'none';
+}
 /**
 * Template Name: NewBiz - v4.7.0
 * Template URL: https://bootstrapmade.com/newbiz-bootstrap-business-template/
