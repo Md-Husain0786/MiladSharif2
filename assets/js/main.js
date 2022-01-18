@@ -1,6 +1,10 @@
 function DBlockFunction() {
 
   setTimeout("", "5000");
+  var footer = document.getElementById('BreakTheLine');
+  footer.style.display = 'block';
+
+  setTimeout("", "5000");
   var Header = document.getElementById('navbar');
   Header.style.display = 'none';
 
