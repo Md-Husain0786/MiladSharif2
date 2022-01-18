@@ -43,7 +43,7 @@
 
 </head>
 
-<body>
+<body id="DivBody">
 
     <!-- ======= Header ======= -->
     <header id="header" class="fixed-top d-flex align-items-center">
@@ -86,18 +86,19 @@
     </header><!-- #header -->
 
     
+    <!-- <br><br>
     <br><br>
     <br><br>
-    <br><br>
-    <br><br>
+    <br><br> -->
 
-    <button class="btn btn-primary" onclick="myFunction()">Click</button>
+    <!-- <button class="btn btn-primary" onclick="myFunction()">Click</button>
 
     <button class="btn btn-success" onclick="DBlockFunction()">Show</button>
 
-    <a href="MiladSharif.html" onclick="DBlockFunction()" class="btn btn-danger">Go to Milad</a>
+    <a href="MiladSharif.html" onclick="DBlockFunction()" class="btn btn-danger">Go to Milad</a> -->
 
     <div id="loader">
+
        <div class="one"></div>
        <div class="two"></div>
        <div class="three"></div>
@@ -117,9 +118,12 @@
   <script>
 
     function myFunction() {
-      setTimeout("", "5000");
+      setTimeout("", "5000");     
+
       var PreLoader = document.getElementById('loader');
       PreLoader.style.display = 'none';
+
+      
     }
 
     // function DBlockFunction() {

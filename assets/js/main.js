@@ -1,4 +1,8 @@
 function DBlockFunction() {
+
+  var Header = document.getElementById('header');
+  Header.style.display = 'none';
+
   setTimeout("", "5000");
   var PreLoader = document.getElementById('loader');
   PreLoader.style.display = 'block';
