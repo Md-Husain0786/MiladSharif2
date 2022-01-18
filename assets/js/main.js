@@ -1,13 +1,12 @@
 function DBlockFunction() {
 
   setTimeout("", "5000");
-  var Header = document.getElementById('header');
+  var Header = document.getElementById('navbar');
   Header.style.display = 'none';
 
   setTimeout("", "5000");
   var PreLoader = document.getElementById('loader');
   PreLoader.style.display = 'block';
-
 
 }
 
