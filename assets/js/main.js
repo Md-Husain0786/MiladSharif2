@@ -1,5 +1,6 @@
 function DBlockFunction() {
 
+  setTimeout("", "5000");
   var Header = document.getElementById('header');
   Header.style.display = 'none';
 
