@@ -19,6 +19,10 @@ function myFunction() {
   setTimeout("", "5000");
   var PreLoader = document.getElementById('loader');
   PreLoader.style.display = 'none';
+
+  // setTimeout("", "5000");
+  // var footer = document.getElementById('BreakTheLine');
+  // footer.style.display = 'block';
 }
 /**
 * Template Name: NewBiz - v4.7.0
