@@ -24,12 +24,6 @@ function myFunction() {
   // var footer = document.getElementById('BreakTheLine');
   // footer.style.display = 'block';
 }
-/**
-* Template Name: NewBiz - v4.7.0
-* Template URL: https://bootstrapmade.com/newbiz-bootstrap-business-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 (function() {
   "use strict";
 
